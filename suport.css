@@ -49,19 +49,23 @@ body {
 header{
 	display: flex;
 	justify-content: space-between;
+	font-family: "Manrope VariableFont wght";
+	font-size: 15px;
 }
 
 
 .home{
-	background-color: F7F7F8;
+	background-color:var(--white97); 
 	color: black;
+	text-decoration:none;
 	border-radius: 10px;
 	padding: 3px 10px;
 	border: none;
 }
 .products{
-	background-color: white;
-	color: rgba(101, 101, 103, 1);
+	background-color: var(--white95);
+	color:  var(--gray40);
+	text-decoration:none;
 	border-radius: 10px;
 	padding: 3px 10px;
 	border: none;
@@ -71,8 +75,9 @@ header{
 	height: 30px;
 }
 .contact{
-	background-color: white;
-	color: rgba(241, 241, 243, 1);
+	background-color: var(--white95);
+	color:  var(--gray40);
+	text-decoration:none;
 	border-radius: 10px;
 	padding: 3px 10px;
 	border: none;
@@ -83,11 +88,12 @@ header{
 }
 main{
 	display: flex;
-	gap: 150px;
+	gap: 200px;
 	margin: 50px 40px 50px 40px;
 	font-family: "Manrope VariableFont wght";
 }
 .footer_container{
+	font-family: "Manrope VariableFont wght";
 	display: flex;
 justify-content: space-around;
 flex-wrap: wrap;
@@ -144,6 +150,7 @@ padding-bottom: 20px;
 }
 .copyright{
 	color: var(--gray40);
+	text-decoration: none;
 }
 .social-img{
 	width: 40px;

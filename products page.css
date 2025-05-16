@@ -52,17 +52,21 @@ header{
 
 
 .home{
-	background-color: F7F7F8;
+	background-color:var(--white97);
 	font-family: "Manrope VariableFont wght";
+	font-size: 15px;
 	color: black;
 	border-radius: 10px;
 	border: none;
 	padding: 3px 10px;
+	text-decoration: none;
 }
 .products{
-	background-color: white;
-	color: rgba(101, 101, 103, 1);
+	background-color:var(--white95);
+	font-size: 15px;
+	color:black;
 	border-radius: 10px;
+	text-decoration: none;
 	border: none;
 	padding: 3px 10px;
 }
@@ -71,9 +75,11 @@ header{
 	height: 30px;
 }
 .contact{
-	background-color: white;
-	color: rgba(241, 241, 243, 1);
+	background-color:var(--white95);
+	color:var(--gray15);
+	font-size: 15px;
 	border-radius: 10px;
+	text-decoration: none;
 	border: none;
 	padding: 3px 10px;
 }
@@ -145,15 +151,45 @@ main{
 	align-items: center;
 	padding: 20px;
 }
+.item{
+	position: relative;
+}
 .item img{
-	max-width: 210px;
+	max-width: 220px;
 	height: auto;
-	margin: 5px;
+	margin: 3px;
+}
+.item h4{
+	font-family: "Manrope VariableFont wght";
+	color: var(--gray15);
+	 font-size: 13px;
 }
 .text_list p{
 	color: var(--gray40);
 	font-size: 15px;
 	font-family: "Manrope VariableFont wght";
+}
+.add_cart img{
+	width: 40px;
+}
+.add_cart{
+	 position: absolute; /* موقعیت مطلق */
+    bottom: 20px; /* فاصله از پایین */
+    right: 10px; /* فاصله از راست */
+}
+.gap{
+	display: flex;
+	gap:110px;
+}
+.gap span{
+	color: var(--gray60);
+	font-family: "Manrope VariableFont wght";
+	font-size: 10px;
+}
+.gap p{
+	font-family: "Manrope VariableFont wght";
+	color: var(--gray15);
+	font-size:10px ;
 }
 .footer_container{
 	display: flex;
@@ -225,6 +261,7 @@ main{
 }
 .copyright{
 	color: var(--gray40);
+	text-decoration: none;
 }
 .social-img{
 	width: 40px;

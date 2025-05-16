@@ -49,11 +49,15 @@ body {
 header{
 	display: flex;
 	justify-content: space-between;
+	font-family: "Manrope VariableFont wght";
+	font-size: 15px;
 }
 
 
-.home{
-	background-color: F7F7F8;
+.home_a{
+	background-color: var(--white97);
+ 	text-decoration: none;
+	color: F7F7F8;
 	color: black;
 	border-radius: 10px;
 	border: none;
@@ -61,6 +65,7 @@ header{
 }
 .products{
 	background-color: white;
+	text-decoration: none;
 	color: rgba(101, 101, 103, 1);
 	border: none;
 	border-radius: 10px;
@@ -75,19 +80,26 @@ header{
 }
 .contact{
 	background-color: white;
+	text-decoration: none;
 	color: rgba(241, 241, 243, 1);
 	border: none;
 	border-radius: 10px;
 	padding: 3px 10px;
 }
+.primary_menu{
+	display: flex;
+	gap:10px;
+}
 .icon_shop{
 	border: none;
   	background-color:rgba(255, 212, 0, 1);
 	border-radius: 50px;
+	width: 25px;
 }
 main{
 	display: flex;
 	margin: 30px 0 30px 0;
+	font-family: "Manrope VariableFont wght";
 }
 .main_content{
 	display: flex;
@@ -99,7 +111,7 @@ justify-content: center;
 	height: 480px;
 }
 .features-table {
-	  background-color:#B7B7B7; 
+	  background-color:var(--white97);
 	  display: grid;
 	  grid-template-columns: repeat(2, 1fr);
 	  gap: 20px; 
@@ -107,7 +119,7 @@ justify-content: center;
 	  max-width: 600px;
 	  margin: 0 auto; 
 	  padding: 15px;
-	 border-radius: 20px;
+	 border-radius: 5px;
 	margin: 15px;
 }
 
@@ -132,14 +144,14 @@ justify-content: center;
 	border: none;
 	background-color: rgba(255, 212, 0, 1);
 	border-radius: 50px;
-	padding: 5px;
+	padding: 8px;
 	margin: 10px;
 }
 .contact_us{
 	background-color: white;
 	border: none;
 	border-radius: 50px;
-	padding: 5px;
+	padding: 8px;
 	margin: 10px;
 }
 .h2_sup{
@@ -155,11 +167,11 @@ justify-content: center;
 	background-color: rgba(255, 212, 0, 1);
 	border-radius: 50px;
 	border: none;
-	padding: 5px;
+	padding: 10px;
 }
 .a_btn{
 	display: flex;
-	gap:200px;
+	gap:400px;
 }
 .categoris{
 	display: flex;
@@ -167,9 +179,9 @@ justify-content: center;
 .active{
 	color: #777;
 	text-decoration: none;
-	margin-right: 10px;
 	padding: 5px 10px;
 	border-radius: 5px;
+	font-size: 15px;
 }
 .active_1{
 	color: black;
@@ -177,21 +189,26 @@ justify-content: center;
 	margin-right: 10px;
 	padding: 5px 10px;
 	border-radius: 5px;
+	font-size: 15px;
+}
+.btn_text{
+	display: flex;
+	gap:300px;
 }
 .btn_1{
 	background-color: rgba(38, 38, 38, 1);
 	color: white;
- 	border-radius: 50px;
+ 	border-radius: 15px;
 	border: none;
-	padding: 4px;
+	padding: 8px;
 	box-sizing: border-box;
 }
 .btn_2{
 	background-color: white;
 	color: rgba(38, 38, 38, 1);
 	border: none;
-	border-radius: 50px;
-	padding: 4px;
+	border-radius: 15px;
+	padding: 8px;
 }
 .img_shop{
 	display: flex;
@@ -263,7 +280,12 @@ max-width: 20px;
 	color: var(--gray15);
 	border-radius: 50px;
 	border: none;
-	padding: 3px;
+	padding: 8px;
+	
+}
+.btn_text2{
+	display: flex;
+gap: 100px;
 }
 .introduce{
 	display: grid;
@@ -290,16 +312,16 @@ max-width: 20px;
 .list{
 	color: var(--gray60);
 	text-decoration: none;
-	margin-right: 10px;
-	padding: 5px 10px;
+	padding: 5px;
 	border-radius: 5px;
+	font-size: 17px;
 }
 .list_1{
 	color: var(--gray10);
 	text-decoration: none;
-	margin-right: 10px;
-	padding: 5px 10px;
+	padding: 5px;
 	border-radius: 5px;
+	font-size: 17px;
 }
 .question_sup{
    color: var(--gray60);
@@ -490,7 +512,10 @@ max-width: 20px;
 	width: 40px;
 	
 }
-
+.categoris{
+	color: var(--gray40);
+	text-decoration: none;
+}
 
 
 
